@@ -10,7 +10,9 @@ var output = document.getElementById("result");
 
 var check = false; 
 
+// in questo caso il for serve per contare all'interno dell array x n volte
 for (var i = 0; i < invitatiGatsby.length; i++) {
+    // con if si deve verificare la condizione per eseguire il comando!
     if (invitatiGatsby[i] === user) {
         check = true;
     }

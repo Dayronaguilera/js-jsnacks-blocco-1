@@ -7,7 +7,7 @@ var arraySurname = ["Patermo ","Aguilera ","Sanna ","d'agata "]
 var listaInvitati = [];
 var output = document.getElementById("list");
 
-while (listaInvitati.length < 3) {
+while (listaInvitati.length < 4) {
     var randomName = arrayName[Math.floor( Math.random() * arrayName.length)];
     var randomSurname = arraySurname[Math.floor( Math.random() * arraySurname.length)];
 

@@ -4,8 +4,7 @@
 
 var result = 0;
 
-// versione for!
-// for serve a chiedere per 5 volte la stessa cosa 
+// versione for! 
 for (var x = 1; x <= 5; x++) {
 
     //  parseInt mi restituisce un numero (intero)!
